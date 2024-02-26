@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]+[
     # your apps
+    'scraper',
+    'share',
 ]+[
     # third party app
     'rest_framework',
