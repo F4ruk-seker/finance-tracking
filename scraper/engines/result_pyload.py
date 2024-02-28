@@ -5,3 +5,4 @@ class ShareResult:
     code: str
     title: str
 
+# passgit
