@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import ShareModel, ShareOwnershipModel
 
-# Register your models here.
+
+admin.site.register(ShareModel)
+admin.site.register(ShareOwnershipModel)
+
